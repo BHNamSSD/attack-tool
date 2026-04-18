@@ -1,0 +1,31 @@
+Name               Enabled Description
+----               ------- -----------
+Admin              True
+Administrator      False   Built-in account for administering the computer/domain
+BA-A               True    this is ba a
+CCO-A              True    this is cco a
+CEO-A              True    this is ceo a
+CISO-A             True    this is ciso a
+CSO-A              True    this is cso a
+DefaultAccount     False   A user account managed by the system.
+DEV-A              True    this is dev a
+DEV-B              True    this is dev b
+DEV-C              True    this is dev c
+GM-A               True    this is gm a
+Guest              False   Built-in account for guest access to the computer/domain
+HR-A               True    this is hr a
+IT-A               True    this is it a
+IT-B               True    this is it b
+IT-C               True    this is it c
+NV-A               True    this is user a
+NV-B               True    this is user b
+NV-C               True    this is user c
+NV-D               True    this is user d
+PM-A               True    this is pm a
+PM-B               True    this is pm b
+TL-A               True    this is tl a
+TL-B               True    this is tl b
+TL-C               True    this is tl c
+TTS-A              True    this is tts a
+TTS-B              True    this is tts b
+TTS-C              True    this is tts c

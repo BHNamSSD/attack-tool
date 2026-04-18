@@ -1,0 +1,22 @@
+=== Hydra RDP Enumeration (3389) ===
+[*] Target: 192.168.1.252:3389
+[*] Password: admin12345
+[*] User list: data/users.txt
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2026-04-17 17:39:33
+[WARNING] the rdp module is experimental. Please test, report - and if possible, fix.
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 10 login tries (l:10/p:1), ~3 tries per task
+[DATA] attacking rdp://192.168.1.252:3389/
+[ATTEMPT] target 192.168.1.252 - login "test1" - pass "admin12345" - 1 of 10 [child 0] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test2" - pass "admin12345" - 2 of 10 [child 1] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test3" - pass "admin12345" - 3 of 10 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test4" - pass "admin12345" - 4 of 10 [child 3] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test5" - pass "admin12345" - 5 of 10 [child 0] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test6" - pass "admin12345" - 6 of 10 [child 1] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test7" - pass "admin12345" - 7 of 10 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test8" - pass "admin12345" - 8 of 10 [child 3] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test9" - pass "admin12345" - 9 of 10 [child 2] (0/0)
+[ATTEMPT] target 192.168.1.252 - login "test10" - pass "admin12345" - 10 of 10 [child 0] (0/0)
+1 of 1 target completed, 0 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2026-04-17 17:40:10
